@@ -1,0 +1,9 @@
+aws:
+  s3:
+    mock: false
+
+spring:
+  datasource:
+    url: jdbc-secretsmanager:postgresql://kendiawsadresimiburayayazacakdegilim.eu-west-1.rds.amazonaws.com:5432/huseyin_aydin_db
+    username: test/full-stack/postgres
+    driver-class-name: com.amazonaws.secretsmanager.sql.AWSSecretsManagerPostgreSQLDriver
