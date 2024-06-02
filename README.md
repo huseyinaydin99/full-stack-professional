@@ -14,7 +14,7 @@
 - ✅ Konteynırlaştırma ve canlıya taşımak için Docker.
 - ✅ Bulut ortamında verileri barındırma ve ölçeklenebilirlik için AWS.
 - ✅ Agile metodolojileri kullanılarak DevOps.
-- ✅ JavaScript and React ile front-end geliştirme.
+- ✅ JavaScript ve React ile front-end geliştirme.
 - ✅ Spring Security 6 ile güvenlik, kimlik doğrulama ve yetkilendirme.
 - ✅ Login/Registration sistemi ve kullanıcı yönetimi.
 - ✅ Tip güvenli çalışma ve ölçeklenebilir kod için TypeScript.
