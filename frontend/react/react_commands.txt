@@ -1,0 +1,6 @@
+npx create-react-app benim_projem //yeni proje oluşturur. npm 5.2+ ve üst versiyonlar.
+npm init react-app my-app //yeni proje oluşturur. npm 6+.
+
+npm install react-scripts --save
+npm install //package.json dosyasında tanımlı olan tüm dependency(bağımlılıkları) kurar.
+npm run dev //yazılan projeyi derler ve tarayıcıda açar.
