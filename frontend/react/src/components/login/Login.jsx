@@ -134,9 +134,9 @@ const Login = () => {
                 flexDirection={"column"}
                 alignItems={"center"}
                 justifyContent={"center"}
-                bgGradient={{sm: 'linear(to-r, blue.600, purple.600)'}}
+                bgGradient={{sm: 'linear(to-r, white.600, white.600)'}}
             >
-                <Text fontSize={"6xl"} color={'white'} fontWeight={"bold"} mb={5}>
+                <Text fontSize={"5xl"} color={'gray'} fontWeight={"bold"} mb={5}>
                     <Link target={"_blank"} href={"https://github.com/huseyinaydin99"}>
                         Hüseyin AYDIN
                     </Link>
@@ -145,7 +145,7 @@ const Login = () => {
                     alt={'Login Image'}
                     objectFit={'scale-down'}
                     src={
-                        'https://user-images.githubusercontent.com/40702606/215539167-d7006790-b880-4929-83fb-c43fa74f429e.png'
+                        '/images/background.jpg'
                     }
                 />
             </Flex>

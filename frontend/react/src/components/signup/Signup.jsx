@@ -20,11 +20,11 @@ const Signup = () => {
                 <Stack spacing={4} w={'full'} maxW={'md'}>
                     <Image
                         src={"../../images/logo.jpg"}
-                        boxSize={"200px"}
+                        boxSize={"80px"}
                         alt={"Hüseyin AYDIN Logo"}
-                        alignSelf={"center"}
+                        alignSelf={"left"}
                     />
-                    <Heading fontSize={'2xl'} mb={15}>Hesap oluştur.</Heading>
+                    <Heading fontSize={'2xl'} mb={12}>Hesap oluştur.</Heading>
                     <CreateCustomerForm onSuccess={(token) => {
                         localStorage.setItem("access_token", token)
                         setCustomerFromToken()
@@ -41,18 +41,18 @@ const Signup = () => {
                 flexDirection={"column"}
                 alignItems={"center"}
                 justifyContent={"center"}
-                bgGradient={{sm: 'linear(to-r, blue.600, purple.600)'}}
+                bgGradient={{sm: 'linear(to-r, white.600, white.600)'}}
             >
-                <Text fontSize={"6xl"} color={'white'} fontWeight={"bold"} mb={5}>
-                    <Link target={"_blank"} href={"https://www.github.com/huseyinaydin99"}>
-                        Hüseyin AYDIN.
+                <Text fontSize={"5xl"} color={'gray'} fontWeight={"bold"} mb={5}>
+                    <Link target={"_blank"} href={"https://github.com/huseyinaydin99"}>
+                        Hüseyin AYDIN
                     </Link>
                 </Text>
                 <Image
                     alt={'Login Image'}
                     objectFit={'scale-down'}
                     src={
-                        'https://user-images.githubusercontent.com/40702606/215539167-d7006790-b880-4929-83fb-c43fa74f429e.png'
+                        '/images/background.jpg'
                     }
                 />
             </Flex>
