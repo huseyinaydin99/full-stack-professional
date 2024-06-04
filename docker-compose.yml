@@ -3,7 +3,7 @@ services:
     container_name: postgres
     image: postgres:14.1
     environment:
-      POSTGRES_USER: root
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: toor
       PGDATA: /data/postgres
     volumes:
@@ -13,7 +13,7 @@ services:
     networks:
       - db
     restart: unless-stopped
-  amigoscode-api:
+  huseyinaydin-api:
     container_name: huseyin-psycho-api
     image: huseyin11/huseyin-psycho-api
     environment:
@@ -25,7 +25,7 @@ services:
     depends_on:
       - db
     restart: unless-stopped
-  amigoscode-react:
+  huseyinaydin-react:
     container_name: huseyin-psycho-react
     image: huseyin11/husseyin-psycho-react
     build:

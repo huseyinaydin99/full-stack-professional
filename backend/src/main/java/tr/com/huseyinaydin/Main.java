@@ -65,11 +65,11 @@ public class Main {
         String lastName = name.lastName();
         int age = random.nextInt(16, 99);
         Gender gender = age % 2 == 0 ? Gender.MALE : Gender.FEMALE;
-        String email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@huseyinbaba.com";
+        String email = "rastgeleemail-" + firstName.toLowerCase() + "." + lastName.toLowerCase() + "@huseyinbaba.com";
         Customer customer = new Customer(
                 firstName +  " " + lastName,
                 email,
-                passwordEncoder.encode("sifreHuseyinBaba123CnmNassın?(-:"),
+                passwordEncoder.encode("huseyinP@ssw4rd"),
                 age,
                 gender);
         customerRepository.save(customer);
