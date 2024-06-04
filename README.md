@@ -35,3 +35,16 @@
 ![Ekran görüntüsü 2024-06-04 164628](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/4ec026f3-6721-466e-81eb-b0ecb772b341)
 ![Ekran görüntüsü 2024-06-04 164612](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/89ebd4f9-1348-45b8-b8a5-4f001a093b0f)
 ![Ekran görüntüsü 2024-06-04 164528](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/604e98ff-3e4b-46dd-a196-846ae9f7fc08)
+
+### Front-end React Görseller:
+![Ekran görüntüsü 2024-06-04 170659](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/23fb85e7-94a6-4498-9043-13204ba353e0)
+![Ekran görüntüsü 2024-06-04 170626](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/0a3c1f52-8673-4d16-a6b2-9465eb2d322b)
+![Ekran görüntüsü 2024-06-04 170313](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/56d4443e-d7da-478c-a409-49fa21689e02)
+![Ekran görüntüsü 2024-06-04 170223](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/05d7094b-4714-4eae-bb69-2dd05c35e6d3)
+![Ekran görüntüsü 2024-06-04 170204](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/f536575a-fd31-4b57-8ffb-aed5aa24624c)
+![Ekran görüntüsü 2024-06-04 170126](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/21cfd7bf-4155-466c-99dc-f0fe0de85605)
+![Ekran görüntüsü 2024-06-04 170106](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/d564cb51-7d90-4eb6-a3ca-d9cfe417e1b5)
+![Ekran görüntüsü 2024-06-04 170027](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/9babece6-5e08-4a64-bb87-0856d339a040)
+![Ekran görüntüsü 2024-06-04 170010](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/a0b9c16b-3493-4e23-8f80-c3e2ffdc0dc2)
+![Ekran görüntüsü 2024-06-04 165933](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/7c832d62-9348-46ac-b7ea-4a543c83fa38)
+![Ekran görüntüsü 2024-06-04 165444](https://github.com/huseyinaydin99/full-stack-professional/assets/16438043/b2e8f55d-4de0-4568-ad15-426402f3c038)
