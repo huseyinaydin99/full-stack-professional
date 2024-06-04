@@ -35,7 +35,7 @@ services:
     ports:
       - "3000:5173"
     depends_on:
-      - amigoscode-api
+      - huseyin-psycho-api
     restart: unless-stopped
 
 networks:
