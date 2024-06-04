@@ -1,0 +1,16 @@
+<h4 class="text-center mt-0">
+  Yönetim Paneli
+</h4>
+<div class="text-center">
+  <p-avatar
+    image="./assets/images/dashboard.png"
+    styleClass="mr-2"
+    size="xlarge"
+    shape="rectangle"
+  ></p-avatar>
+</div>
+<div>
+  <app-menu-item *ngFor="let item of menu"
+                 [menuItem] = "item">
+  </app-menu-item>
+</div>

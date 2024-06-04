@@ -1,0 +1,5 @@
+npm install -g npm@10.8.1 //npm(node package manager)'in 10.8.1 sürümünü kurar.
+npm install -g @angular/cli //angular'ın komutlarını global olarak herkesin kullanacağı şekilde bilgisayarımıza kurar.
+ng new benim_projem //yeni proje oluşturur.
+npm install //package.json dosyasında tanımlı olan tüm dependency(bağımlılıkları) kurar.
+ng serve --open //yazılan projeyi derler ve tarayıcıda açar.

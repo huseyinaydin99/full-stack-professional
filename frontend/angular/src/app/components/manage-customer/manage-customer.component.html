@@ -1,0 +1,72 @@
+<div>
+  <h2>{{ operation === 'update' ? 'Müşteri Güncelleme Sayfası' : 'Yeni Müşteri Kaydı' }}</h2>
+  <div class="field">
+    <label for="firstname">Ad</label>
+    <input
+      [(ngModel)]="customer.name"
+      id="firstname"
+      pInputText
+      placeholder="Adınızı giriniz."
+      type="text"
+      class="w-full"
+    >
+  </div>
+  <div class="field">
+    <label for="email">E-posta</label>
+    <input
+      [(ngModel)]="customer.email"
+      id="email"
+      pInputText
+      placeholder="E-posta adresinizi giriniz."
+      type="email"
+      class="w-full"
+    >
+  </div>
+  <div class="field">
+    <label for="age">Yaş</label>
+    <input
+      [(ngModel)]="customer.age"
+      id="age"
+      pInputText
+      placeholder="Yaşınızı giriniz."
+      type="number"
+      class="w-full"
+    >
+  </div>
+  <div class="field" *ngIf="operation === 'create'">
+    <label for="password">Şifre</label>
+    <input
+      [(ngModel)]="customer.password"
+      id="password"
+      pInputText
+      placeholder="Şifrenizi giriniz."
+      type="password"
+      class="w-full"
+    >
+  </div>
+  <div class="field" *ngIf="operation === 'create'">
+    <label for="gender">Cinsiyet</label>
+    <select
+      [(ngModel)]="customer.gender"
+      class="p-dropdown w-full custom-select"
+      id="gender"
+    >
+      <option value="">Cinsiyet Seç</option>
+      <option value="MALE">Erkek</option>
+      <option value="FEMALE">Kadın</option>
+    </select>
+  </div>
+  <button
+    [disabled]="!isCustomerValid"
+    (click)="onSubmit()"
+    pButton
+    label="Gönder"
+    class="w-full"
+  ></button>
+  <button
+    (click)="onCancel()"
+    pButton
+    label="İptal"
+    class="w-full p-button-outlined p-button-danger mt-2"
+  ></button>
+</div>
